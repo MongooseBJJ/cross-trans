@@ -95,7 +95,7 @@ app.post('/', cpUpload, function(req, res, next) {
 
         // send mail with defined transport object
         let info = await transporter.sendMail({
-            from: '"Nodemailer" <process.env.EMAIL_USER>', // sender address
+            from: `"Nodemailer" <${req.body.email}>`, // sender address
             to: "<info@cross-trans>", // list of receivers
             subject: "Website Form", // Subject line
             html: htmlContent,
