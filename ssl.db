@@ -1,0 +1,139 @@
+--- 
+files: 
+  certificate: 
+    _wildcard__crosstransportationinc_com_aba93_e79bb_1628791258_0039e632265dd72a1dbbd99849c1e051: 
+      created: '1621018858'
+      domains: 
+        - "*.crosstransportationinc.com"
+        - crosstransportationinc.com
+      ecdsa_curve_name: ~
+      ecdsa_public: ~
+      friendly_name: Cert for “crosstransportationinc.com” 1621018858.0
+      id: _wildcard__crosstransportationinc_com_aba93_e79bb_1628791258_0039e632265dd72a1dbbd99849c1e051
+      is_self_signed: 0
+      issuer.commonName: R3
+      issuer.organizationName: Let's Encrypt
+      key_algorithm: rsaEncryption
+      modulus: aba93fa52261c0cc322aee5b12d075ed831aeff3a8bb044007ac0f9f1671df473bcd0c2e629bfe921e6197bef8ba2f0e148d8be40ebe13b29abf8ebf2fc74fe63c83d07333c06d922bd00b77c3be471219d9a3a73693a926d29c83e08207d0b6643c3c82e524d75bac18d579fca019e726ea172272eee3618ec9ed4edbc5c04b01b547ed22dea2aaebd3ef9d8b2e5daf370292c238f404120e3d0b2f75e947d9e1ab1627eee6fffb6f910f1de4f5246f76ea9889da25cd163e65237b308c1520485492ef3b5d924284c6d688846b049a0a627d2895a1ceb5117b1b0b07db7b359f3a20b66f8993308e9e167660e020a306dc7fb9d1284cba7191a3fd2b6e79bb
+      modulus_length: 2048
+      not_after: '1628791258'
+      not_before: '1621015258'
+      serial: 046cffb2730c956172732bf0b89af72739cf
+      signature_algorithm: sha256WithRSAEncryption
+      subject.commonName: "*.crosstransportationinc.com"
+      validation_type: dv
+    cross_trans_com_aa053_bbeed_1649429229_de3c415a34690ef8c916cce642a0cd4b: 
+      created: '1617893229'
+      domains: 
+        - cross-trans.com
+        - mail.cross-trans.com
+        - www.cross-trans.com
+        - cpanel.cross-trans.com
+        - webmail.cross-trans.com
+        - webdisk.cross-trans.com
+        - cpcontacts.cross-trans.com
+        - cpcalendars.cross-trans.com
+        - autodiscover.cross-trans.com
+      ecdsa_curve_name: ~
+      ecdsa_public: ~
+      friendly_name: Cert for “cross-trans.com”
+      id: cross_trans_com_aa053_bbeed_1649429229_de3c415a34690ef8c916cce642a0cd4b
+      is_self_signed: 1
+      issuer.commonName: cross-trans.com
+      issuer.organizationName: ~
+      key_algorithm: rsaEncryption
+      modulus: aa053326d4609d67e52663e52fd0bee2ee6a27ae6b17ed4232e25c8721baa0557969b7893a4fbb4642cb46eda11030c15f7a9b17c92234213dd598b761a1199205f87162ae8707190f4da46ab0717c97ec56f5b7bd7c5904eed4498b9caee4849a44a1394fd091d9bcc24607a1aaaace3c16176a6d705081f625487e7c8bb7821bf947f221617bf6e5996a8eabf050379ff59cc84a585b26b1b6a70cad9d54f03a4403512c5f163658ca025ea983a2d36b8d22436820d5136eba36330227900f4cf77894117e21f488fb040af9e97f796d568feefce7d220666344cb1c4f59c7ecc4707a10ea37464667028a49504dd6bf48f3796421af7117e9da58e0dbbeed
+      modulus_length: 2048
+      not_after: '1649429229'
+      not_before: '1617893229'
+      serial: 93dd9bde
+      signature_algorithm: sha256WithRSAEncryption
+      subject.commonName: cross-trans.com
+      validation_type: ~
+    crosstransportationinc_com_aa9b7_e89a1_1652554784_c54e53877b23dd53e26cffa9ea1f62a4: 
+      created: '1621018784'
+      domains: 
+        - crosstransportationinc.com
+        - mail.crosstransportationinc.com
+        - www.crosstransportationinc.com
+        - cpanel.crosstransportationinc.com
+        - webmail.crosstransportationinc.com
+        - webdisk.crosstransportationinc.com
+        - cpcontacts.crosstransportationinc.com
+        - cpcalendars.crosstransportationinc.com
+        - autodiscover.crosstransportationinc.com
+      ecdsa_curve_name: ~
+      ecdsa_public: ~
+      friendly_name: Cert for “crosstransportationinc.com”
+      id: crosstransportationinc_com_aa9b7_e89a1_1652554784_c54e53877b23dd53e26cffa9ea1f62a4
+      is_self_signed: 1
+      issuer.commonName: crosstransportationinc.com
+      issuer.organizationName: ~
+      key_algorithm: rsaEncryption
+      modulus: aa9b741efcb7ffb91d474dab4313972fd05592d0203998b277e08b7b8bd9fca7b5ab1d535e019bfc8115feed37f8c0ebc35e36a45060e399b34b2fa2adb81099b745a52468aa9750c89c8fac9f8f9ac67683b0128bcfa0fbd63dd3dd8f7da1c412577113eba53a1f2d158358015104700cb90ba1ffcef9be46edc600ea2aabc2d4e4a653f279aed50eea40c480d73d8094dec2272ca6f67edfd43ea2bb04a869706bc3e60a09d8e970a8aae63f72c5201fbdc35fbab3ea49c11cc5d95e4146a38ade25dcac45afe19832e3e59ec1aa97c211de1db8e5001e5365305db68bdd4b2971ffed40c2a7c7967530efa6f5bf0535858622b33651c26750e0bbfbde89a1
+      modulus_length: 2048
+      not_after: '1652554784'
+      not_before: '1621018784'
+      serial: 01c7d91942
+      signature_algorithm: sha256WithRSAEncryption
+      subject.commonName: crosstransportationinc.com
+      validation_type: ~
+  key: 
+    aa053_bbeed_d7ab922746c71823ba860dba821ef35b: 
+      created: '1617893229'
+      ecdsa_curve_name: ~
+      ecdsa_public: ~
+      friendly_name: Key for “cross-trans.com”
+      id: aa053_bbeed_d7ab922746c71823ba860dba821ef35b
+      key_algorithm: rsaEncryption
+      modulus: aa053326d4609d67e52663e52fd0bee2ee6a27ae6b17ed4232e25c8721baa0557969b7893a4fbb4642cb46eda11030c15f7a9b17c92234213dd598b761a1199205f87162ae8707190f4da46ab0717c97ec56f5b7bd7c5904eed4498b9caee4849a44a1394fd091d9bcc24607a1aaaace3c16176a6d705081f625487e7c8bb7821bf947f221617bf6e5996a8eabf050379ff59cc84a585b26b1b6a70cad9d54f03a4403512c5f163658ca025ea983a2d36b8d22436820d5136eba36330227900f4cf77894117e21f488fb040af9e97f796d568feefce7d220666344cb1c4f59c7ecc4707a10ea37464667028a49504dd6bf48f3796421af7117e9da58e0dbbeed
+      modulus_length: 2048
+    aa9b7_e89a1_b958406a7b278ae59569fa29527a5b87: 
+      created: '1621018784'
+      ecdsa_curve_name: ~
+      ecdsa_public: ~
+      friendly_name: Key for “crosstransportationinc.com”
+      id: aa9b7_e89a1_b958406a7b278ae59569fa29527a5b87
+      key_algorithm: rsaEncryption
+      modulus: aa9b741efcb7ffb91d474dab4313972fd05592d0203998b277e08b7b8bd9fca7b5ab1d535e019bfc8115feed37f8c0ebc35e36a45060e399b34b2fa2adb81099b745a52468aa9750c89c8fac9f8f9ac67683b0128bcfa0fbd63dd3dd8f7da1c412577113eba53a1f2d158358015104700cb90ba1ffcef9be46edc600ea2aabc2d4e4a653f279aed50eea40c480d73d8094dec2272ca6f67edfd43ea2bb04a869706bc3e60a09d8e970a8aae63f72c5201fbdc35fbab3ea49c11cc5d95e4146a38ade25dcac45afe19832e3e59ec1aa97c211de1db8e5001e5365305db68bdd4b2971ffed40c2a7c7967530efa6f5bf0535858622b33651c26750e0bbfbde89a1
+      modulus_length: 2048
+    aba93_e79bb_75789f8774d8bea33fc5c4a64dcef01a: 
+      created: '1621018858'
+      ecdsa_curve_name: ~
+      ecdsa_public: ~
+      friendly_name: Key for “crosstransportationinc.com” 1621018858.0
+      id: aba93_e79bb_75789f8774d8bea33fc5c4a64dcef01a
+      key_algorithm: rsaEncryption
+      modulus: aba93fa52261c0cc322aee5b12d075ed831aeff3a8bb044007ac0f9f1671df473bcd0c2e629bfe921e6197bef8ba2f0e148d8be40ebe13b29abf8ebf2fc74fe63c83d07333c06d922bd00b77c3be471219d9a3a73693a926d29c83e08207d0b6643c3c82e524d75bac18d579fca019e726ea172272eee3618ec9ed4edbc5c04b01b547ed22dea2aaebd3ef9d8b2e5daf370292c238f404120e3d0b2f75e947d9e1ab1627eee6fffb6f910f1de4f5246f76ea9889da25cd163e65237b308c1520485492ef3b5d924284c6d688846b049a0a627d2895a1ceb5117b1b0b07db7b359f3a20b66f8993308e9e167660e020a306dc7fb9d1284cba7191a3fd2b6e79bb
+      modulus_length: 2048
+indexes: 
+  certificate: 
+    modulus: 
+      aa053326d4609d67e52663e52fd0bee2ee6a27ae6b17ed4232e25c8721baa0557969b7893a4fbb4642cb46eda11030c15f7a9b17c92234213dd598b761a1199205f87162ae8707190f4da46ab0717c97ec56f5b7bd7c5904eed4498b9caee4849a44a1394fd091d9bcc24607a1aaaace3c16176a6d705081f625487e7c8bb7821bf947f221617bf6e5996a8eabf050379ff59cc84a585b26b1b6a70cad9d54f03a4403512c5f163658ca025ea983a2d36b8d22436820d5136eba36330227900f4cf77894117e21f488fb040af9e97f796d568feefce7d220666344cb1c4f59c7ecc4707a10ea37464667028a49504dd6bf48f3796421af7117e9da58e0dbbeed: 
+        cross_trans_com_aa053_bbeed_1649429229_de3c415a34690ef8c916cce642a0cd4b: ~
+      aa9b741efcb7ffb91d474dab4313972fd05592d0203998b277e08b7b8bd9fca7b5ab1d535e019bfc8115feed37f8c0ebc35e36a45060e399b34b2fa2adb81099b745a52468aa9750c89c8fac9f8f9ac67683b0128bcfa0fbd63dd3dd8f7da1c412577113eba53a1f2d158358015104700cb90ba1ffcef9be46edc600ea2aabc2d4e4a653f279aed50eea40c480d73d8094dec2272ca6f67edfd43ea2bb04a869706bc3e60a09d8e970a8aae63f72c5201fbdc35fbab3ea49c11cc5d95e4146a38ade25dcac45afe19832e3e59ec1aa97c211de1db8e5001e5365305db68bdd4b2971ffed40c2a7c7967530efa6f5bf0535858622b33651c26750e0bbfbde89a1: 
+        crosstransportationinc_com_aa9b7_e89a1_1652554784_c54e53877b23dd53e26cffa9ea1f62a4: ~
+      aba93fa52261c0cc322aee5b12d075ed831aeff3a8bb044007ac0f9f1671df473bcd0c2e629bfe921e6197bef8ba2f0e148d8be40ebe13b29abf8ebf2fc74fe63c83d07333c06d922bd00b77c3be471219d9a3a73693a926d29c83e08207d0b6643c3c82e524d75bac18d579fca019e726ea172272eee3618ec9ed4edbc5c04b01b547ed22dea2aaebd3ef9d8b2e5daf370292c238f404120e3d0b2f75e947d9e1ab1627eee6fffb6f910f1de4f5246f76ea9889da25cd163e65237b308c1520485492ef3b5d924284c6d688846b049a0a627d2895a1ceb5117b1b0b07db7b359f3a20b66f8993308e9e167660e020a306dc7fb9d1284cba7191a3fd2b6e79bb: 
+        _wildcard__crosstransportationinc_com_aba93_e79bb_1628791258_0039e632265dd72a1dbbd99849c1e051: ~
+    subject.commonName: 
+      "*.crosstransportationinc.com": 
+        _wildcard__crosstransportationinc_com_aba93_e79bb_1628791258_0039e632265dd72a1dbbd99849c1e051: ~
+      cross-trans.com: 
+        cross_trans_com_aa053_bbeed_1649429229_de3c415a34690ef8c916cce642a0cd4b: ~
+      crosstransportationinc.com: 
+        crosstransportationinc_com_aa9b7_e89a1_1652554784_c54e53877b23dd53e26cffa9ea1f62a4: ~
+uniques: 
+  certificate: 
+    friendly_name: 
+      Cert for “cross-trans.com”: cross_trans_com_aa053_bbeed_1649429229_de3c415a34690ef8c916cce642a0cd4b
+      Cert for “crosstransportationinc.com”: crosstransportationinc_com_aa9b7_e89a1_1652554784_c54e53877b23dd53e26cffa9ea1f62a4
+      Cert for “crosstransportationinc.com” 1621018858.0: _wildcard__crosstransportationinc_com_aba93_e79bb_1628791258_0039e632265dd72a1dbbd99849c1e051
+  key: 
+    friendly_name: 
+      Key for “cross-trans.com”: aa053_bbeed_d7ab922746c71823ba860dba821ef35b
+      Key for “crosstransportationinc.com”: aa9b7_e89a1_b958406a7b278ae59569fa29527a5b87
+      Key for “crosstransportationinc.com” 1621018858.0: aba93_e79bb_75789f8774d8bea33fc5c4a64dcef01a
+    modulus:ecdsa_curve_name:ecdsa_public: 
+      aa053326d4609d67e52663e52fd0bee2ee6a27ae6b17ed4232e25c8721baa0557969b7893a4fbb4642cb46eda11030c15f7a9b17c92234213dd598b761a1199205f87162ae8707190f4da46ab0717c97ec56f5b7bd7c5904eed4498b9caee4849a44a1394fd091d9bcc24607a1aaaace3c16176a6d705081f625487e7c8bb7821bf947f221617bf6e5996a8eabf050379ff59cc84a585b26b1b6a70cad9d54f03a4403512c5f163658ca025ea983a2d36b8d22436820d5136eba36330227900f4cf77894117e21f488fb040af9e97f796d568feefce7d220666344cb1c4f59c7ecc4707a10ea37464667028a49504dd6bf48f3796421af7117e9da58e0dbbeed: aa053_bbeed_d7ab922746c71823ba860dba821ef35b
+      aa9b741efcb7ffb91d474dab4313972fd05592d0203998b277e08b7b8bd9fca7b5ab1d535e019bfc8115feed37f8c0ebc35e36a45060e399b34b2fa2adb81099b745a52468aa9750c89c8fac9f8f9ac67683b0128bcfa0fbd63dd3dd8f7da1c412577113eba53a1f2d158358015104700cb90ba1ffcef9be46edc600ea2aabc2d4e4a653f279aed50eea40c480d73d8094dec2272ca6f67edfd43ea2bb04a869706bc3e60a09d8e970a8aae63f72c5201fbdc35fbab3ea49c11cc5d95e4146a38ade25dcac45afe19832e3e59ec1aa97c211de1db8e5001e5365305db68bdd4b2971ffed40c2a7c7967530efa6f5bf0535858622b33651c26750e0bbfbde89a1: aa9b7_e89a1_b958406a7b278ae59569fa29527a5b87
+      aba93fa52261c0cc322aee5b12d075ed831aeff3a8bb044007ac0f9f1671df473bcd0c2e629bfe921e6197bef8ba2f0e148d8be40ebe13b29abf8ebf2fc74fe63c83d07333c06d922bd00b77c3be471219d9a3a73693a926d29c83e08207d0b6643c3c82e524d75bac18d579fca019e726ea172272eee3618ec9ed4edbc5c04b01b547ed22dea2aaebd3ef9d8b2e5daf370292c238f404120e3d0b2f75e947d9e1ab1627eee6fffb6f910f1de4f5246f76ea9889da25cd163e65237b308c1520485492ef3b5d924284c6d688846b049a0a627d2895a1ceb5117b1b0b07db7b359f3a20b66f8993308e9e167660e020a306dc7fb9d1284cba7191a3fd2b6e79bb: aba93_e79bb_75789f8774d8bea33fc5c4a64dcef01a
