@@ -112,8 +112,7 @@ app.post('/', cpUpload, function(req, res, next) {
 
 
 
-
-var port = process.env.PORT || 3000;
-app.listen(port, function() {
-    console.log("Server Has Started!");
+const port = process.env.PORT || 3000;
+app.listen(port, () => {
+    console.log(`Serving on port ${port}`)
 });
