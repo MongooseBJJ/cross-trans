@@ -95,7 +95,7 @@ app.post('/', cpUpload, function(req, res, next) {
 
         // send mail with defined transport object
         let info = await transporter.sendMail({
-            from: `"nodemailer", <${req.body.email}>`, // sender address
+            from: "nodemailer <developert79@gmail.com>", // sender address
             to: "nkgwebdev@gmail.com", // list of receivers
             subject: "Website Form", // Subject line
             html: htmlContent,
@@ -104,6 +104,7 @@ app.post('/', cpUpload, function(req, res, next) {
         console.log("Message sent: %s", info.messageId);
         // Message sent: <b658f8ca-6296-ccf4-8306-87d57a0b4321@example.com>
     }
+
 
     main().catch(console.error);
     res.render('landing');
