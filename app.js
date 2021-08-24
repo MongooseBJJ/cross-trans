@@ -104,7 +104,9 @@ app.post('/', cpUpload, function(req, res, next) {
         console.log("Message sent: %s", info.messageId);
         // Message sent: <b658f8ca-6296-ccf4-8306-87d57a0b4321@example.com>
     }
-
+    smtpTransport.sendMail(mailOptions, function(error, response) {
+        console.log(error || response);
+    });
 
     main().catch(console.error);
     res.render('landing');
