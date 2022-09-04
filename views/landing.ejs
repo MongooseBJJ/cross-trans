@@ -133,23 +133,23 @@
 
         </div>
         <!-- Form inputs -->
-        <section class="formSection text">
+        <section class="formSection container-fluid text">
             <label for="name">Full Name:</label>
             <input class="form-control input-lg" type="text" name="name" id="name" required>
         </section>
 
-        <section class="formSection text">
+        <section class="formSection container-fluid text">
             <label for="email">Email:</label>
             <input class="form-control input-lg" type="email" name="email" id="email" required>
         </section>
 
-        <section class="formSection text">
+        <section class="formSection container-fluid text">
             <label for="phone">Phone:</label>
             <input class="form-control input-large" type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}*" id="phone" maxlength="16">
         </section>
         <div class="row">
             <div class="col-md-6">
-                <section class="formSection selection cdl">
+                <section class="formSection container-fluid selection cdl">
                     <label for="CDL">Do you have a class A CDL?</label>
                     <div class="form-check">
                         <input class="form-check-input" type="radio" id="CDLY" name="CDL" value="Yes">
@@ -160,7 +160,7 @@
                         <label for="CDLN">No</label>
                     </div>
                 </section>
-                <section class="formSection selection otrExp">
+                <section class="formSection container-fluid selection otrExp">
                     <label for="otrExp">Do you have at least 2 years of OTR experience?</label>
                     <div class="form-check">
                         <input class="form-check-input" type="radio" id="otrExpY" name="otrExp" value="Yes">
@@ -171,7 +171,7 @@
                         <label for="otrExpN">No</label>
                     </div>
                 </section>
-                <section class="formSection selection movingVio">
+                <section class="formSection container-fluid selection movingVio">
                     <label for="movingVio">Do you have less than 3 moving violations in the previous 3 years?
           </label>
                     <div class="form-check">
@@ -183,15 +183,15 @@
                         <label for="movingVioN">No</label>
                     </div>
                 </section>
-                <section class="formSection selection time">
+                <section class="formSection container-fluid selection time">
                     <label for="time">Best hours to contact you between:</label>
                     <br>
-                    <input class="time" type="time" id="time1" name="time"> --
+                    <input class="time" type="time" id="time1" name="time">
                     <input class="time " type="time" name="time" id="time2">
                 </section>
             </div>
             <div class="col-md-6">
-                <section class="formSection selection truck">
+                <section class="formSection container-fluid selection truck">
                     <label for="truck">Do you have or are in the process of aquiring own truck?</label>
                     <div class="form-check">
                         <input class="form-check-input" type="radio" id="truckY" name="truck" value="Yes">
@@ -202,7 +202,7 @@
                         <label for="truckN">No</label>
                     </div>
                 </section>
-                <section class="formSection selection movingVio">
+                <section class="formSection container-fluid selection movingVio">
                     <label for="movingVio">Have you been cited for a D.O.T. defined accident in the previous 3 years
           </label>
                     <div class="form-check">
@@ -214,7 +214,7 @@
                         <label for="accident">No</label>
                     </div>
                 </section>
-                <section class="formSection selection haul">
+                <section class="formSection container-fluid selection haul">
                     <label for="haul">Prefered haul?</label>
                     <h6>*cannot guarantee local only</h6>
                     <select name="haul" id="haul">
@@ -225,52 +225,58 @@
                 </section>
             </div>
 
-            <!-- Recaptcha and submit button for form -->
-            <button class="btn btn-lg g-recaptcha d-flex justify-content-center" data-sitekey="6Le_MX8aAAAAAB6ja8cYRgRI9GCY1sOxFAlAu54c" data-callback="onSubmit" id="submitBtn" type="submit" value="submit">Submit</button>
+            <!-- Recaptcha (g-recaptcha) and submit button for form -->
+            <button class="btn btn-lg g-recaptcha d-flex justify-content-center" data-sitekey="6Le_MX8aAAAAAB6ja8cYRgRI9GCY1sOxFAlAu54c" data-callback='onSubmit' data-action='submit' id="submitBtn" type="submit" value="submit">Submit</button>
     </form>
     </div>
     <!-- Gallery section -->
-    <div id="gallery" class="gallery container">
+    <section ig="gallery" class="wWD gallery container-fluid d-none d-sm-block p-0 mt-5">
         <h1 class="text-center mt-4">Gallery:</h1>
-        <div class="row 1">
-            <div class="col-md-4">
-                <img class="img-thumbnail" src="./media/snowytruck.jpeg" alt="Truck in the Snow">
+
+        <div id="carouselExampleSlidesOnly" class="carousel p-0 slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide-to="4" aria-label="Slide 5"></button>
             </div>
-            <div class="col-md-4">
-                <img src="./media/load.jpeg" alt="Truck W/located" class="img-thumbnail">
-            </div>
-            <div class="col-md-4">
-                <img src="./media/DuelingDs.jpeg" alt="Two trucks facing eachother" class="img-thumbnail">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./media/A4FhL4zA.jpeg" class="d-block w-100 center" alt="carousel image">
+                    <div class="carousel-caption d-block">
+                        <h2 class="display-6">We Work With You!</h2>
+                        <p>We work primarily with owner operators who own their truck</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./media/flatbed.jpeg" class="d-block w-100 center" alt="flatbed image">
+                    <div class="carousel-caption d-block">
+                        <h2 class="display-6">Flatbed</h2>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./media/NA.jpg" class="d-block w-100 center" alt="NASA image of North America">
+                    <div class="carousel-caption d-block">
+                        <h2 class="display-6">Lower 48</h2>
+                        <p>No Canada or Mexico.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./media/fridgetruck2.jpeg" class="d-block w-100 center" alt="Fridge slide truck">
+                    <div class="carousel-caption d-block">
+                        <h2 class="display-6">Refrigerated</h2>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./media/glowytruck.jpeg" class="d-block w-100 center" alt="Truck at night">
+                    <div class="carousel-caption d-block">
+                        <h2 class="display-6">Van</h2>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="row 2">
-            <div class="col-md-3">
-                <img class="img-thumbnail" src="./media/mountains.jpeg" alt="Mountain Road">
-            </div>
-            <div class="col-md-3">
-                <img src="./media/mountains2.jpeg" alt="2nd mountain road" class="img-thumbnail">
-            </div>
-            <div class="col-md-3">
-                <img src="./media/Mubhs-pg.jpeg" alt="Truck covered in snow" class="img-thumbnail">
-            </div>
-            <div class="col-md-3">
-                <img src="./media/cockpit.jpeg" class="img-thumbnail" alt="cockpit of truck">
-            </div>
-        </div>
-        <div class="row 3">
-            <div class="col-md-3">
-                <img src="./media/RaptorCage.jpeg" alt="loaded cages" class="img-thumbnail">
-            </div>
-            <div class="col-md-3">
-                <img src="./media/Truck.jpeg" alt="Blue truck" class="img-thumbnail">
-            </div>
-            <div class="col-md-3">
-                <img src="./media/Vc-rmR1A.jpeg" alt="Heavy machine load" class="img-thumbnail">
-            </div>
-            <div class="col-md-3">
-                <img class="img-thumbnail" src="./media/Tree.jpeg" alt="Fallen tree">
-            </div>
-        </div>
+    </section>
 
 
     </div>
